@@ -72,18 +72,8 @@ def show_login_form():
         cnx.close()
 
     tk.Button(window, text="Login", command=check_credentials).grid(row=3, column=0, columnspan=2)
-
-
-
     info_text = "InstaBotify is a simple yet effective Instagram Bot"
     tk.Label(window, text=info_text).grid(row=4, column=0, columnspan=2)
-    dc = "To get help and stay up to date, please join this discord:"
-    dcl = "https://discord.gg/ezffH3fRdk"
-    discord_link = tk.Label(window, text=dc)
-    discord_link.grid(row=5, column=0, columnspan=2)
-    dcl = tk.Label(window, text=dcl, fg="blue", cursor="hand2")
-    dcl.grid(row=6, column=0, columnspan=2)
-    dcl.bind("<Button-1>", lambda e: webbrowser.open_new("https://discord.gg/ezffH3fRdk"))
     window.mainloop()
 
 
