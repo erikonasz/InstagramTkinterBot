@@ -25,7 +25,7 @@ InstaBotify is a simple yet effective Instagram automation tool developed using 
 - Webdriver-manager
 - Configparser
 
-#Usage:
+# Usage:
 
 - Install the required libraries and packages using pip install -r requirements.txt.
 - Run the script python InstaBotify.py to launch the application.
